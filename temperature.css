@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body
+{
+    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210902/pngtree-high-temperature-summer-sun-blue-hot-summer-image_785793.jpg"); */
+  /* background-image: url("https://tannerhelland.com/images/Temperature_to_RGB_1500_to_15000.png"); */
+  background-color: pink;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.logo
+{
+    font-size:30px;
+    background-color: rgb(3, 3, 3);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin-left: 180px;
+}
+
+h1{
+    color: white;
+    margin: 150px;
+}
+.converter
+{
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    margin: 130px;
+    margin-left: 550px;
+    font-size: 25px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+input[type=number],select
+{
+    width: 100%;
+    margin: 10px;
+    height: 30px;
+    
+}
+
+button{
+   margin-left:110px ;
+   width: 100px;
+   height: 30px;
+   border-radius: 10px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+button:hover{
+    color:rgb(248, 246, 246);
+    background-color: rgb(47, 0, 255);
+    cursor: pointer;
+}
+a:hover{
+    color:rgb(250, 248, 248);
+    background-color: rgb(3, 3, 80);
+      border: 1px solid white;
+    border-radius: 7px;
+}
+
+
+footer{
+    background-color: black;
+    color: rgb(250, 249, 249);
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+

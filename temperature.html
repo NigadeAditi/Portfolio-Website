@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature convertor</title>
+    <link rel="stylesheet" href="temperature.css">
+</head>
+<body>
+    <div class="logo">
+        Tconverter
+        <a href="#">Home</a>
+        <a href="#">Converter</a>
+        <a href="#">Contact us</a>
+        <a href="#">More</a>
+    </div>
+   <div class="converter">
+    Temperature Converter<br>
+    <label for="Degree">Degree</label>
+   <p><input type="number" name="degree" id="degree" placeholder="Enter degree" > </p>
+   <label for="click">Type</label>
+  <p> <select name="click" id="click">
+    <option value="Type">Type</option>
+    <option value="Celsius">Celsius</option>
+    <option value="fahrenheit">Fahrenheit</option>
+   </select>
+</p>
+<button onclick="convertTemperature()">Convert </button> 
+<hr style="margin: 20px;">
+<p><label for="Result">Result</label></p>
+<input type="number" name="result" id="result" readonly >
+</div>
+
+<footer>
+    copyright @Tconverter
+    <br>
+    <a href="#" style="margin-left: 40px; font-size: 20px;">Privacy policy</a>
+    <a href="#" style=" font-size: 20px;">About</a>
+    <a href="#" style=" font-size: 20px;">Security</a>
+</footer>
+<script src="temperature.js"></script>
+</body>
+</html>
